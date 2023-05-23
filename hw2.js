@@ -9,6 +9,7 @@ let prod;
 let quot;
 let result;
 let age;
+let num;
  let user = {
      name: 'Иван',
     age: 18,
@@ -44,9 +45,21 @@ a=9;
 b=2;
 alert(`6. остаток от деления ${a} и ${b} = ${a%b}`);
 
+// Задача 7
+num = 1;
+num += 5;
+console.log(num);
+num -= 3;
+num *= 7;
+num /= 3;
+num += 1;
+num -= 1;
+alert(num);
+
+
 // Задача 8
 age = prompt ("сколько вам лет?");
-alert(`7. Ваш возвраст ${age} лет.`);
+alert(`8. Ваш возвраст ${age} лет.`);
 
 // Задача 9
 user.cityOfResidence = 'Moscow';
