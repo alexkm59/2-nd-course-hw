@@ -6,6 +6,8 @@ let e = 220;
 let a = '2';
 let b = '3';
 let monthNumber = 10;
+let n;
+let ost;
 // Задание 1
 // if (password == inputPassword) {
 //     alert('Пароль введен верно');
@@ -57,3 +59,15 @@ switch (monthNumber) {
 }
 
 // Задание 7
+n = Number(prompt('Пожалуйста, введите любое число'));
+if (isNaN(n)) {
+    alert('введенное значение не является числом');
+} else {
+    ost = n % 2;
+
+    if (ost === 0) {
+        alert('число четное');
+    } else {
+        alert('число нечетное');
+    }
+}
