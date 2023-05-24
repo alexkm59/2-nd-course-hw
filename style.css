@@ -149,4 +149,23 @@ a {
   .top__text_thick {
     font-weight: 700;
   }
+  .game-box {
+    height: 1222px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .game {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    height: 300px;
+    width: 343px;
+    border-radius: 18px;
+    display: block;
+    display: flex;
+    align-items: flex-end;
+    gap: 32px;
+  }
 }/*# sourceMappingURL=style.css.map */
