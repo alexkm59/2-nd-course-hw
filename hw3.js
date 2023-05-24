@@ -1,5 +1,5 @@
 let password = 'пароль';
-// let inputPassword = String(prompt('Укажите пароль'));
+let inputPassword = String(prompt('Укажите пароль'));
 let c = 2;
 let d = 34;
 let e = 220;
@@ -86,16 +86,16 @@ if (clientOS === 1) {
 
 // Задание 9
 if (clientOS === 0 && clientDeviceYear < 2015) {
-    console.log('Установите облегченную версию приложения для iOS по ссылке');
+    alert('Установите облегченную версию приложения для iOS по ссылке');
 }
 if (clientOS === 0 && clientDeviceYear >= 2015) {
-    console.log('Установите версию приложения для iOS по ссылке');
+    alert('Установите версию приложения для iOS по ссылке');
 }
 
 if (clientOS === 1 && clientDeviceYear < 2015) {
-    console.log('Установите облегченную версию приложения для Android по ссылке');
+    alert('Установите облегченную версию приложения для Android по ссылке');
 }
 if (clientOS === 1 && clientDeviceYear >= 2015) {
-    console.log('Установите версию приложения для Android по ссылке');
+    alert('Установите версию приложения для Android по ссылке');
 }
 
