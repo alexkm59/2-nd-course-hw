@@ -8,12 +8,16 @@ let b = '3';
 let monthNumber = 10;
 let n;
 let ost;
+let clientOS = 1; // ( 0 - iOS, 1 - Android)
+let clientDeviceYear = 2016;
+
+
 // Задание 1
-// if (password == inputPassword) {
-//     alert('Пароль введен верно');
-// } else {
-//     alert('Пароль введен неправильно');
-// }
+if (password == inputPassword) {
+    alert('Пароль введен верно');
+} else {
+    alert('Пароль введен неправильно');
+}
 // Задание 2
 if (c > 0 && c < 10) {
     console.log('Верно');
@@ -71,3 +75,27 @@ if (isNaN(n)) {
         alert('число нечетное');
     }
 }
+
+// Задание 8
+if (clientOS === 0) {
+    console.log('Установите версию приложения для iOS по ссылке');
+}
+if (clientOS === 1) {
+    console.log('Установите версию приложения для Android по ссылке');
+}
+
+// Задание 9
+if (clientOS === 0 && clientDeviceYear < 2015) {
+    console.log('Установите облегченную версию приложения для iOS по ссылке');
+}
+if (clientOS === 0 && clientDeviceYear >= 2015) {
+    console.log('Установите версию приложения для iOS по ссылке');
+}
+
+if (clientOS === 1 && clientDeviceYear < 2015) {
+    console.log('Установите облегченную версию приложения для Android по ссылке');
+}
+if (clientOS === 1 && clientDeviceYear >= 2015) {
+    console.log('Установите версию приложения для Android по ссылке');
+}
+
