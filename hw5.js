@@ -20,14 +20,47 @@ function evenNumber(n) {
 console.log(evenNumber(6));
 
 // Задание 3
-
-function conSquar(n){
-    n = n**2;
+// 3.1 возврат в консоль
+function conSquar(n) {
+    n = n ** 2;
     console.log(`Квадрат числа равен: ${n}`);
 }
 conSquar(5);
-
-function squar(n){
-    return n**2;
+// 3.2 возврат
+function squar(n) {
+    return n ** 2;
 }
 console.log(squar(6));
+
+// Задание 4
+function hello() {
+    age = prompt(`Сколько вам лет?`);
+    if (age < 0) {
+        alert(`Вы ввели неправильное значение`);
+    }
+        else{
+            if (age >= 0 && age <= 12) {
+                alert(`Привет, друг!`);
+                
+            } else {
+                alert(`Добро пожаловать!`);
+            }
+        }  
+}
+
+hello();
+
+// Задание 5
+
+function multiplay (a, b) {
+a = Number(a);
+b = Number(b);
+  
+if (isNaN(a) || isNaN(b)) {
+    return 'введенное значение не является числом';
+} else{
+    return a * b;
+}
+}
+
+console.log(multiplay (40, 4));
