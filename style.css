@@ -159,6 +159,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: inherit;
 }
 .game-block__button:hover {
   text-decoration: underline;
@@ -217,5 +218,57 @@ a {
     display: flex;
     align-items: flex-end;
     gap: 32px;
+  }
+  .game-area {
+    height: 654px;
+    background-color: #000915;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .game-block__content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+  }
+  .game-block__title {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  }
+  .game-block__title_size {
+    max-width: 377px;
+  }
+  .game-block__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .game-block__text_size {
+    max-width: 343px;
+  }
+  .game-block__button {
+    width: 234px;
+    height: 48px;
+    background: #9C0332;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .game-block__button:hover {
+    text-decoration: underline;
+  }
+  .game-img {
+    max-width: 344px;
+    max-height: 236px;
   }
 }/*# sourceMappingURL=style.css.map */

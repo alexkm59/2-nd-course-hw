@@ -144,7 +144,7 @@ a {
     align-items: center;
     }
 .game-block {
-
+    
     // height: 800px;
     // background-color: #000915;
 
@@ -179,12 +179,11 @@ a {
     }
 
     &__button {
-
+        
         width: 234px;
         height: 48px;
         background: #9C0332;
         border-radius: 30px;
-        // display: block;
         font-weight: 400;
         font-size: 18px;
         line-height: 22px;
@@ -192,28 +191,15 @@ a {
         display: flex;
         align-items: center;
         justify-content: center;
-        
+        font-family: inherit;
 
         &:hover {
             text-decoration: underline;
         }
-
-        // &_position {
-        //     margin-top: 12px;
-        // }
-
     }
 }
     
-.game-img{
-    // display: block;
-    // width: 300px;
-    // height: 250px;
-    // background-image: url(/img/game_seasons.jpg);
-    // // width: 485px;
-    // // height: 333px;
-    // // background-color: #FFFFFF;
-}
+
 
 
 
