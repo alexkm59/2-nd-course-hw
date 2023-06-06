@@ -123,6 +123,9 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+.game-area__left {
+  flex-direction: row-reverse;
+}
 
 .game-block__content {
   display: flex;
@@ -136,7 +139,7 @@ a {
   color: #FFFFFF;
 }
 .game-block__title_size {
-  max-width: 377px;
+  max-width: 396px;
 }
 .game-block__text {
   font-weight: 300;
@@ -163,6 +166,10 @@ a {
 }
 .game-block__button:hover {
   text-decoration: underline;
+}
+
+.game-img {
+  opacity: 0.9;
 }
 
 @media (max-width: 767px) {
