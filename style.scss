@@ -142,7 +142,11 @@ a {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    }
+    
+&__left{
+    flex-direction: row-reverse;
+}
+}
 .game-block {
     
     // height: 800px;
@@ -162,7 +166,7 @@ a {
         color: #FFFFFF;
 
         &_size {
-            max-width: 377px;
+            max-width: 396px;
         }
     }
 
@@ -199,7 +203,9 @@ a {
     }
 }
     
-
+.game-img{
+    opacity: 0.9;
+}
 
 
 

@@ -1,10 +1,39 @@
+const product = ['Кресло', 'Стул', 'Стол'];
+let greeting = 'Кресло';
+console.log(product);
+console.log(`Длина массива ${product.length}`);
+console.log(product[0]);
+console.log(product[2]);
+
+product[0] = 'Комод';
+console.log(product);
+
+product[3] = 'Диван';
+
+product[product.length] = 'John';
+console.log(product);
+
+product.forEach((el, index) => {
+   
+        console.log(`${index}: ${el}`);
+    
+});
+
+const arrayGreetings = greeting.split('');
+console.log(arrayGreetings);
+
+let string = 'Строка';
+
+string = string.toUpperCase();
+console.log(string);
+
 // Задание 1
 
 const arr = [1, 5, 4, 10, 0, 3];
 
 for (let el of arr) {
+    console.log(el);
     if (el == 10) {
-        console.log(el);
         break;
     }
     console.log(el)
@@ -52,11 +81,11 @@ console.log(arr6);
 
 // Задание 7
 
-const arr7 = [9, 8, 7, 6, 5];
+// const arr7 = [9, 8, 7, 6, 5];
 
-let m = Number(prompt('Введите число от 1 до 10'));
-let search = arr7.includes(m);
-console.log(search);
+// let m = Number(prompt('Введите число от 1 до 10'));
+// let search = arr7.includes(m);
+// console.log(search);
 
 // Задание 8
 
